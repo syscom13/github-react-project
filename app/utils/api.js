@@ -1,6 +1,6 @@
-const id = "2ea086ed2c655c95313b"
-const sec = "ad7d68a13520e5eac2251dc766b75acf52528fd3"
-const params = `?client_id=${id}&client_secret=${sec}`
+const ID = process.env.ID
+const SEC = process.env.SEC
+const params = `?client_id=${ID}&client_secret=${SEC}`
 
 
 export function fetchPopularRepos(language) {
